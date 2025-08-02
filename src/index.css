@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Colors */
+  --color-main-purple: #635fc7;
+  --color-main-purple-hover: #a8a4ff;
+  --color-very-dark-grey: #1e1e1e;
+  --color-dark-grey: #2b2c37;
+  --color-lines: #3e3f4e;
+  --color-medium-grey: #828fa3;
+  --color-lines-light: #e4ebfa;
+  --color-light-grey: #f4f7fd;
+  --color-red: #ea5555;
+  --color-red-hover: #ff9898;
+
+  /* Heading Small */
+  --text-heading-s: 0.75rem;
+  --font-weight-heading-s: 700;
+
+  /* Heading Medium */
+  --text-heading-m: 0.9rem;
+  --font-weight-heading-m: 700;
+
+  /* Heading Large */
+  --text-heading-l: 1.125rem;
+  --font-weight-heading-l: 700;
+
+  /* Heading Extra Large */
+  --text-heading-xl: 1.5rem;
+  --font-weight-heading-xl: 700;
+
+  /* Body Medium */
+  --text-body-m: 0.75rem;
+  --font-weight-body-m: 700;
+
+  /* Body Large */
+  --text-body-l: 0.8125rem;
+  --font-weight-body-l: 500;
+}
+
+:root {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
