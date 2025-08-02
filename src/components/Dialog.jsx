@@ -26,7 +26,7 @@ export default function DialogDemo({
         <Dialog.Overlay className="data-[state=open]:animate-overlayShow fixed inset-0 bg-black/50 z-10" />
         <Dialog.Content
           aria-describedby={undefined}
-          className="data-[state=open]:animate-contentShow fixed left-[50%] top-[50%] max-h-[85vh] w-[480px] translate-x-[-50%] translate-y-[-50%] overflow-auto rounded-[6px] bg-white dark:bg-[#1B1B1B] dark:text-white p-8 focus:outline-none z-10"
+          className="data-[state=open]:animate-contentShow fixed left-[50%] top-[50%] max-h-[85vh] w-[480px] max-sm:w-[300px] translate-x-[-50%] translate-y-[-50%] overflow-auto rounded-[6px] bg-white dark:bg-[#1B1B1B] dark:text-white p-8 focus:outline-none z-10"
         >
           <Dialog.Title className="text-heading-l font-heading-l mb-6">
             {title}

@@ -19,7 +19,7 @@ export default function TextField({
   defaultValue,
 }) {
   return (
-    <div className="relative flex min-w-80 flex-1 items-center">
+    <div className="relative flex w-full  max-sm:w-full flex-1 items-center">
       {isInvalid && (
         <span className="absolute right-4 text-body-l font-body-l text-red">
           Can't be empty

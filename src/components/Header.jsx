@@ -51,7 +51,7 @@ export default function Header() {
       <div className="flex flex-1">
         <Hamburger toggled={isHamburgerOpen} toggle={setHamburgerOpen} />
       </div>
-      <div className="flex w-[300px] items-center gap-4 self-stretch flex-1 justify-center border-lines-light  text-[32px] font-bold max-sm:text-heading-l">
+      <div className="flex items-center gap-4 max-sm:gap-2 self-stretch flex-2 justify-center border-lines-light  text-[32px] font-bold max-sm:text-heading-l">
         <img src="Logo.jpg" alt="Logo icon" className="w-8 max-sm:w-6" />
         Task Flow
       </div>

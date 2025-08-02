@@ -59,7 +59,7 @@ function AddNewBoardFoarm({
 
   return (
     <form
-      className="flex flex-col gap-7 "
+      className="flex flex-col gap-7"
       onSubmit={(event) =>
         handleFormSubmit(event, setDataState, setDialogState, boardID)
       }
